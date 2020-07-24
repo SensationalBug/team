@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  font-family: monospace;
+  color: #fff;
+}
+header {
+  text-align: center;
+  font-size: 30px;
+  padding: 3px;
+  font-weight: 900;
+}
+.mayor,
+header {
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #414345, #232526);
+}
+.listas {
+  border-radius: 1%;
+  text-align: center;
+  height: 85vh;
+  overflow: auto;
+}
+.listas::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+}
+.listas::-webkit-scrollbar-thumb {
+  background-color: #797979;
+  border-radius: 10px;
+  border: 2px solid #f1f2f3;
+}
+#listaMedio {
+  position: relative;
+  top: 50px;
+}
+#listaMedio option,
+#listaMedio input {
+  color: #000;
+}
+.licey,
+.aguilas {
+  border: 1px groove;
+}
+img {
+  width: 200px;
+  margin-top: 122px;
+  opacity: 0.4;
+  position: absolute;
+  left: 67vw;
+  top: 110px;
+}
+img:nth-last-child(2) {
+  width: 200px;
+  margin-top: 122px;
+  opacity: 0.4;
+  position: absolute;
+  left: 18vw;
+  top: 100px;
+}
+.alert {
+  display: none;
+  margin: 10px;
+}
+.botonEntrar {
+  margin-top: 10px;
+}
+.btn {
+  width: 100%;
+}
+.botones {
+  margin-top: 10px;
+  width: 150px;
+}
+.table {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
